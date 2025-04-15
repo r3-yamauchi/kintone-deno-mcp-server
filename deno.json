@@ -1,0 +1,16 @@
+{
+  "importMap": "./import_map.json",
+  "tasks": {
+    "start": "deno run --allow-env --allow-net server.js"
+  },
+  "compilerOptions": {
+    "lib": ["esnext"],
+    "strict": true
+  },
+  "lint": {
+    "files": {
+      "exclude": ["node_modules/"]
+    }
+  },
+  "lock": false
+}
