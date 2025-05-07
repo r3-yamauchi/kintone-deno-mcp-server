@@ -3,6 +3,8 @@
 これは [kintone](https://kintone.cybozu.co.jp/) との連携目的で使用できる [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) サーバーを Deno で動くようにしたサンプルです。
 Deno では対象の kintoneドメインのみと通信許可する設定ができるので、セキュリティ面の懸念材料が減っています。
 
+このリポジトリの詳細は [DeepWikiドキュメント](https://deepwiki.com/r3-yamauchi/kintone-deno-mcp-server) を参照してください。
+
 ## 使い方
 
 ### 1. ソースコードをダウンロードする
