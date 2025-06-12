@@ -1,0 +1,32 @@
+{
+  "name": "kintone-deno-mcp-server",
+  "version": "1.0.0",
+  "description": "Model Context Protocol (MCP) server for kintone integration using Deno",
+  "main": "server.js",
+  "scripts": {
+    "start": "deno task start",
+    "lint": "deno lint",
+    "check": "deno check server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r3-yamauchi/kintone-deno-mcp-server.git"
+  },
+  "keywords": [
+    "kintone",
+    "mcp",
+    "model-context-protocol",
+    "deno",
+    "claude",
+    "api"
+  ],
+  "author": "r3-yamauchi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/r3-yamauchi/kintone-deno-mcp-server/issues"
+  },
+  "homepage": "https://github.com/r3-yamauchi/kintone-deno-mcp-server#readme",
+  "engines": {
+    "deno": ">=1.40.0"
+  }
+}
